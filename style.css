@@ -1,0 +1,86 @@
+h1, p{
+  text-align:center;
+}
+form {
+  background-color:#0ad;
+  border-radius:10px;
+  padding:20px;
+  font-size:20px;
+}
+.labels {
+  width:49%;
+  text-align:right;
+  margin-right:10px;
+  margin-bottom:10px;
+  display:inline-block;
+}
+.input-fields {
+  width:49%;
+  display:inline-block;
+}
+input,select {
+  padding:5px;
+}
+#number {
+  min-width:170px;
+}
+
+optgroup {
+  color:#222;
+  font-size:11px;
+}
+option {
+  color:#000;
+  font-size:13px;
+}
+
+#recommend,#improve,#message{
+  margin-top:5px;
+}
+#recommend .labels,#improve .labels,#message .labels {
+  vertical-align:top;
+}
+#recommend .input-fields span,#improve .input-fields span {
+  display:block;
+  font-size:15px;
+}
+
+#checkInput,#radioInput {
+  width:40%;
+}
+
+#message .input-fields textarea {
+  min-width:200px;
+  min-height:100px;
+  padding:10px;
+}
+
+form button {
+  display:block;
+  margin:20px auto;
+  padding:10px;
+  width:100px;
+  border-radius:10%;
+  background-color:#fff;
+  border:1px solid #fff;
+  color:#0d0;
+  font-weight:bold;
+  font-size:17px;
+}
+form button:hover {
+  cursor:pointer;
+  background-color:#00f;
+  border:1px solid #00f;
+  box-sizing:border-box;
+}
+
+/* Responsible design */
+@media only screen and (max-width:821px) {
+  .labels, .input-fields {
+    display:block;
+    width:100%;
+    text-align:left;
+    margin-left:20px;
+    margin-top:10px;
+  }
+}
